@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const port = 8006;
+const port = 8008;
 
 // Middleware to parse JSON requests
 app.use(express.json());
